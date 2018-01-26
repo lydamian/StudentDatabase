@@ -1,0 +1,93 @@
+/* Programmer: Damian Ly     */
+/* filename: stylesheet1.css */
+
+
+body{
+	background: linear-gradient(to bottom right, white, gray); 
+}
+
+h1{
+
+}
+
+p{
+	font-size: 18px;
+}
+
+/* Heading */
+.heading{
+	text-align: center;
+}
+
+/* Horizontal navigation bar styling */
+.hnavbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.hnavli{
+	float: left;
+}
+
+.hnavlink{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color:#56c1db;
+}
+.hnavlink: hover{
+	
+}
+
+/* end Horizontal navigation bar styling */
+
+/* Button Design */
+.button{
+	text-decoration: none;
+	margin: 40px;
+	text-align: center;
+	display: inline-block;
+	padding: 50px;
+	font-size:24px;
+	margin-left: 0px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#algbutton{
+	color: white;
+	background: linear-gradient(to bottom right, #e0e0e0, #380ceb);
+	
+}
+
+#cbutton{
+	color: white;
+	background: linear-gradient(to bottom right, #e0e0e0, #19bf13);
+}
+
+#javabutton{
+	color: white;
+	background: linear-gradient(to bottom right, #e0e0e0, #ff3300);
+}
+
+#portfoliobutton{
+	color: white;
+	background: linear-gradient(to bottom right, #e0e0e0, #e600ff);
+}
+
+/* end Button Design */
+
